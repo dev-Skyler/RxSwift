@@ -60,7 +60,7 @@
 * RxSwift에는 `catch`계열에 두가지의 주요 연산자가 있다. 첫째는 다음과 같다.
 
 	```swift
-	func catchError(_ handler:) -> RxSwift.Observable<Self.E>
+	func catch(_ handler:) -> RxSwift.Observable<Self.E>
 	```
 	
 	* 이 연산자는 클로저를 매개변수로 받아서 완전히 다른 형태의 observable로 반환한다.
